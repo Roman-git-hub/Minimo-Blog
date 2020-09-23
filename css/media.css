@@ -8,8 +8,12 @@
 
 /* Медиа запрос для экранов меньше 1024px */
 
-@media (max-width: 1024px) {}
-
+@media (max-width: 1024px) {
+    /* Header */
+    .header__wraper {
+        height: 50px;
+    }
+}
 /* Медиа запрос для экранов меньше 768px */
 
 @media (max-width: 768px) {
