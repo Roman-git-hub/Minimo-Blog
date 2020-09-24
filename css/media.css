@@ -18,6 +18,10 @@
 /* Медиа запрос для экранов меньше 768px */
 
 @media (max-width: 768px) {
+    /* body */
+    .lock {
+        overflow: hidden;
+    }
     /* Burger */
     .header__burger {
         display: block;
@@ -89,12 +93,7 @@
         transform: rotate(-45deg);
     }
     /* // Burger */
-}
 
-@media (max-width: 768px) {
-    .lock {
-        overflow: hidden;
-    }
     /* Header */
     .header__wraper {
         height: 50px;
@@ -103,8 +102,15 @@
     .photo__blog {
         margin-bottom: 28px;
     }
+    /* Post */
+    .post__card {
+        margin-bottom: 30px;
+    }
     /* Photodiary */
     .photodiary__diary {
+        margin-bottom: 10px;
+    }
+    .photodiary__title {
         margin-bottom: 10px;
     }
     .photodiary__main {
@@ -117,14 +123,24 @@
         margin-bottom: 40px;
     }
     .photodiary__share {
-        margin: 40px 0px;
+        margin: 30px 0px;
+    }
+    /* Slider */
+    .block__slider {
+        margin-bottom: 30px;
     }
     /* Comment */
     .comment__block:last-child {
         margin-bottom: 30px;
     }
+    .comment__block:first-child {
+        margin-bottom: 20px;
+    }
     .comment__user {
         margin-left: 15px;
+    }
+    .comment__user p {
+        margin-bottom: 10px;
     }
     .comment__discussin {
         margin-left: 15px;
