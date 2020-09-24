@@ -116,14 +116,18 @@
     .photodiary__coment {
         margin-bottom: 40px;
     }
+    .photodiary__share {
+        margin: 40px 0px;
+    }
+    /* Comment */
     .comment__block:last-child {
         margin-bottom: 30px;
     }
     .comment__user {
         margin-left: 15px;
     }
-    .photodiary__share {
-        margin: 40px 0px;
+    .comment__discussin {
+        margin-left: 15px;
     }
     /* News */
     .news {
