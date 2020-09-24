@@ -505,10 +505,13 @@ img {
 .comment__discussin {
     width: 100%;
     padding: 25px;
-    text-transform: uppercase;
     border-radius: 6px;
     margin-left: 35px;
     border: 1px solid #EDEDEB;
+}
+
+.comment__discussin:focus {
+    text-transform: none;
 }
 
 .connected__icon {
