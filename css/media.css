@@ -1,0 +1,177 @@
+/* Медиа запрос для экранов меньше 1090px */
+
+@media (max-width: 1090px) {
+    .wraper_top {
+        padding: 0px 15px 0px 15px;
+    }
+}
+
+/* Медиа запрос для экранов меньше 1024px */
+
+@media (max-width: 1024px) {
+    /* Header */
+    .header__wraper {
+        height: 50px;
+    }
+}
+
+/* Медиа запрос для экранов меньше 768px */
+
+@media (max-width: 768px) {
+    /* Burger */
+    .header__burger {
+        display: block;
+        position: relative;
+        width: 30px;
+        height: 20px;
+        z-index: 3;
+    }
+    .header__burger span {
+        position: absolute;
+        background-color: gray;
+        width: 30px;
+        height: 2px;
+        top: 9px;
+    }
+    .header__burger:before, .header__burger:after {
+        content: '';
+        position: absolute;
+        display: block;
+        background-color: gray;
+        width: 30px;
+        height: 2px;
+        left: 0;
+        transition: transform 0.2s ease-in, top 0.2s linear 0.2s;
+    }
+    .header__burger:before {
+        top: 0;
+    }
+    .header__burger:after {
+        top: 18px;
+    }
+    .header__menu {
+        position: fixed;
+        top: -100%;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        transition: all 0.3s ease-in 0s;
+        padding: 70px 10px 20px 10px;
+        background-color: rgb(231, 231, 231);
+    }
+    .menu__active {
+        top: 0;
+    }
+    .header__list {
+        display: block;
+    }
+    .header__list li {
+        margin: 0px 0px 20px 0px;
+        text-align: center;
+        padding-left: 0;
+    }
+    .header__link {
+        font-size: 20px;
+    }
+    .burger__active span {
+        /* background-color: transparent; */
+        transform: scale(0);
+    }
+    .burger__active:before, .burger__active:after {
+        top: 9px;
+        transition: top 0.2s linear, transform 0.2s ease-in 0.2s;
+    }
+    .burger__active:before {
+        transform: rotate(45deg);
+    }
+    .burger__active:after {
+        transform: rotate(-45deg);
+    }
+    /* // Burger */
+}
+
+@media (max-width: 768px) {
+    .lock {
+        overflow: hidden;
+    }
+    /* Header */
+    .header__wraper {
+        height: 50px;
+    }
+    /* Photo blog */
+    .photo__blog {
+        margin-bottom: 28px;
+    }
+    /* Photodiary */
+    .photodiary__diary {
+        margin-bottom: 10px;
+    }
+    .photodiary__main {
+        margin-bottom: 15px;
+    }
+    .photodiary__info>* {
+        margin-bottom: 20px;
+    }
+    .photodiary__coment {
+        margin-bottom: 40px;
+    }
+    .comment__block:last-child {
+        margin-bottom: 30px;
+    }
+    .photodiary__share {
+        margin: 40px 0px;
+    }
+    /* News */
+    .news {
+        padding: 40px 0px 40px 0px;
+        margin-bottom: 30px;
+    }
+    .news__email input {
+        max-width: 85%;
+    }
+    .news__heading {
+        margin-bottom: 25px;
+    }
+    /* Lifestyle */
+    .lifestyle__card_wrap {
+        justify-content: center;
+    }
+    .lifestyle__card {
+        max-width: 421px;
+        margin-bottom: 45px;
+    }
+    .lifestyle__card img {
+        margin-bottom: 12px;
+    }
+    .lifestyle__indents h2 {
+        margin: 12px 0px 12px 0px;
+    }
+    /* Btn */
+    .load__btn {
+        margin: 0;
+    }
+    /* Comment */
+    .comment__avatar img {
+        width: 50px;
+    }
+    /* Footer */
+    .footer__wraper {
+        justify-content: center;
+        flex-direction: column;
+    }
+    .footer__privacy {
+        margin-bottom: 19px;
+    }
+    .footer__social {
+        margin-inline-start: -28px;
+    }
+}
+
+/* Медиа запрос для экранов меньше 320px */
+
+@media (max-width: 320px) {
+    .news__payh input {
+        max-width: 250px;
+    }
+}
