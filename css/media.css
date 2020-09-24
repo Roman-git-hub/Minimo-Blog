@@ -185,9 +185,7 @@
     }
     .footer__privacy {
         margin-bottom: 19px;
-    }
-    .footer__social {
-        margin-inline-start: -28px;
+        margin-inline-start: 20px;
     }
 }
 
