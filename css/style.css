@@ -510,9 +510,35 @@ img {
     border: 1px solid #EDEDEB;
 }
 
-.comment__discussin:focus {
-    text-transform: none;
+/* Input placexolder */
+
+.comment__discussin {
+    font-family: Ubuntu;
+    font-size: 14px;
+    font-weight: 300;
+    color: #b4ad9e;
 }
+
+.comment__discussin:focus::-webkit-input-placeholder {
+    color: transparent;
+}
+
+.comment__discussin:focus:-moz-placeholder {
+    /* FF 4-18 */
+    color: transparent;
+}
+
+.comment__discussin:focus::-moz-placeholder {
+    /* FF 19+ */
+    color: transparent;
+}
+
+.comment__discussin:focus:-ms-input-placeholder {
+    /* IE 10+ */
+    color: transparent;
+}
+
+/* // Input placexolder */
 
 .connected__icon {
     padding-left: 16px;
