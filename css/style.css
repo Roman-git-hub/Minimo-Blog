@@ -1,4 +1,4 @@
-﻿html {
+html {
     scroll-behavior: smooth;
 }
 
@@ -28,7 +28,6 @@ img {
 .wraper_top {
     max-width: 1061px;
     margin: 0 auto;
-    /*background-color: red;*/
 }
 
 .wraper {

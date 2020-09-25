@@ -134,13 +134,19 @@
         margin-bottom: 30px;
     }
     .comment__block:first-child {
-        margin-bottom: 20px;
+        margin-bottom: 25px;
     }
     .comment__user {
         margin-left: 15px;
     }
     .comment__user p {
         margin-bottom: 10px;
+    }
+    .comment__user h4 {
+        margin: 3px 0px 10px 0px;
+    }
+    .comment__avatar img {
+        width: 50px;
     }
     .comment__discussin {
         margin-left: 15px;
@@ -174,10 +180,6 @@
     .load__btn {
         margin: 0;
     }
-    /* Comment */
-    .comment__avatar img {
-        width: 50px;
-    }
     /* Footer */
     .footer__wraper {
         justify-content: center;
@@ -185,7 +187,7 @@
     }
     .footer__privacy {
         margin-bottom: 19px;
-        margin-inline-start: 20px;
+        margin-inline-start: 25px;
     }
 }
 
