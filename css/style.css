@@ -230,7 +230,7 @@ img {
 
 /* Pagination */
 
-.load {
+.load__more {
     margin-bottom: 50px;
 }
 
@@ -537,9 +537,6 @@ img {
     /* IE 10+ */
     color: transparent;
 }
-
-/* // Input placexolder */
-
 .connected__icon {
     padding-left: 16px;
 }
@@ -589,23 +586,10 @@ img {
     margin-bottom: 50px;
 }
 
-.sidebar__post>ul div {
-    margin: 0px 0px 26px 28px;
-}
-
 .sidebar__post>ul li {
     position: relative;
     padding: 0px 25px 15px 28px;
 }
-
-/* .sidebar__post li:before {
-    content: '';
-    position: absolute;
-    width: 5px;
-    height: 5px;
-    background-color: red;
-    border-radius: 50%;
-} */
 
 .sidebar__post li:nth-child(odd):before {
     content: '';
@@ -616,6 +600,10 @@ img {
     left: 0px;
     border-radius: 50%;
     background-color: #b6b19e;
+}
+
+.sidebar__post li:nth-child(even) {
+    margin-bottom: 20px;
 }
 
 .sidebar__post_title {
